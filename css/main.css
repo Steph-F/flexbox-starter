@@ -96,30 +96,38 @@ textarea {
    ========================================================================== */
 
 html {
-  background-color: #fff;
-  height: 100%;
-  width: 100%;
+    background: hsla(154, 100%, 76%, 1);
+    background: linear-gradient(90deg, hsla(154, 100%, 76%, 1) 0%, hsla(234, 100%, 83%, 1) 50%, hsla(288, 100%, 81%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(154, 100%, 76%, 1) 0%, hsla(234, 100%, 83%, 1) 50%, hsla(288, 100%, 81%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(154, 100%, 76%, 1) 0%, hsla(234, 100%, 83%, 1) 50%, hsla(288, 100%, 81%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#84FFC9", endColorstr="#AAB2FF", GradientType=1 );
+    height: 100%;
+    width: 100%;
 }
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
-  padding: 0 2em;
+  padding: 2em 2em;
   font-size: 1.25em;
   height: 100%;
   color: #fff;
 }
 
+header {
+    font-size: 3.5em;
+}
+
 header,
 footer {
-  background-color: #222;
-  height: 80px;
+  height: 90px;
   width: 100%;
 }
 
 main {
-  background-color: #ccc;
   height: 250px;
   width: 100%;
+  font-size: 1.6em;
+  text-align: center;
 }
 
 header,
@@ -142,12 +150,18 @@ main {
   color: #fff;
   line-height: 1.5em;
   font-size: 1.6em;
-  background-color: #f16059;
   width: 30%;
   height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 4em 0;
+  text-align: justify;
+}
+
+footer {
+    padding: 1.5em 0;
+    font-size: 1.6em;
 }
 
 /* ==========================================================================
